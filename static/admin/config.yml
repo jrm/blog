@@ -24,9 +24,11 @@ collections:
   - name: 'pages'
     label: 'Pages'
     files:
-      - label: "About Page"
-        name: "about"
-        file: "content/pages/abount/about.mdx"
+      - label: 'About Page'
+        name: 'about'
+        extension: 'mdx'
+        format: 'frontmatter'
+        file: 'content/pages/about/index'
         fields:
           - {label: 'Title', name: 'title', widget: 'string'}
           - {label: 'Slug', name: 'slug', widget: 'string'}
